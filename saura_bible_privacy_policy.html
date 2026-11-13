@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for Saura Bible, developed by Saura Site.">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy | Saura Bible</title>
+  <style>
+    :root{
+      --primary:#123b68;
+      --primary-2:#1d5b91;
+      --gold:#d9a441;
+      --bg:#f4f7fb;
+      --card:#ffffff;
+      --text:#253247;
+      --muted:#66758a;
+      --border:#e4eaf1;
+      --shadow:0 18px 45px rgba(18,59,104,.10);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:linear-gradient(180deg,#eef5fb 0%,var(--bg) 35%,#fff 100%);
+      color:var(--text);
+      line-height:1.75;
+    }
+    a{color:var(--primary-2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      background:linear-gradient(135deg,#0d3157,#1e5f94 70%,#2c759f);
+      color:#fff;
+      padding:58px 20px 82px;
+    }
+    .hero:before,.hero:after{
+      content:"";
+      position:absolute;
+      border-radius:50%;
+      background:rgba(255,255,255,.07);
+    }
+    .hero:before{width:360px;height:360px;right:-110px;top:-170px}
+    .hero:after{width:250px;height:250px;left:-110px;bottom:-150px}
+    .hero-inner{max-width:1050px;margin:auto;position:relative;z-index:1}
+    .brand{display:flex;align-items:center;gap:16px;margin-bottom:28px}
+    .logo{
+      width:64px;height:64px;border-radius:18px;
+      background:rgba(255,255,255,.15);
+      border:1px solid rgba(255,255,255,.3);
+      display:grid;place-items:center;
+      font-size:31px;
+      box-shadow:0 10px 30px rgba(0,0,0,.12);
+    }
+    .brand strong{display:block;font-size:18px;letter-spacing:.3px}
+    .brand span{display:block;color:rgba(255,255,255,.78);font-size:14px}
+    h1{font-size:clamp(34px,6vw,58px);line-height:1.1;margin:0 0 16px;letter-spacing:-1.5px}
+    .hero p{max-width:760px;margin:0;color:rgba(255,255,255,.86);font-size:17px}
+    .updated{
+      display:inline-block;margin-top:24px;padding:8px 14px;border-radius:999px;
+      background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);
+      font-size:13px;color:#fff;
+    }
+    .wrap{max-width:1050px;margin:-40px auto 60px;padding:0 20px;position:relative;z-index:2}
+    .layout{display:grid;grid-template-columns:245px 1fr;gap:24px;align-items:start}
+    .toc,.content,.contact-card{
+      background:var(--card);border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow)
+    }
+    .toc{padding:20px;position:sticky;top:18px}
+    .toc h3{margin:0 0 12px;color:var(--primary);font-size:15px;text-transform:uppercase;letter-spacing:.8px}
+    .toc a{display:block;padding:8px 9px;border-radius:9px;color:#4d6078;font-size:14px}
+    .toc a:hover{background:#f0f5fa;text-decoration:none;color:var(--primary)}
+    .content{padding:34px 38px}
+    section{scroll-margin-top:20px}
+    section+section{border-top:1px solid var(--border);margin-top:30px;padding-top:30px}
+    h2{font-size:24px;line-height:1.3;color:var(--primary);margin:0 0 12px}
+    h3{font-size:18px;color:#30465f;margin:22px 0 8px}
+    p{margin:10px 0}
+    ul{padding-left:23px}
+    li{margin:6px 0}
+    .notice{
+      border-left:4px solid var(--gold);
+      background:#fff9ec;padding:17px 18px;border-radius:10px;margin:18px 0;
+    }
+    .check-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:16px 0}
+    .check{
+      border:1px solid var(--border);border-radius:12px;padding:13px 15px;background:#fbfcfe
+    }
+    .check b{color:var(--primary)}
+    .contact-card{margin-top:24px;padding:28px;background:linear-gradient(135deg,#f7fbff,#fff)}
+    .contact-card h2{margin-bottom:8px}
+    .footer{text-align:center;color:var(--muted);font-size:13px;padding:10px 20px 45px}
+    .buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      padding:11px 16px;border-radius:10px;font-weight:700;font-size:14px;
+      border:1px solid var(--border);background:#fff;color:var(--primary);
+    }
+    .btn.primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+    .btn:hover{text-decoration:none;transform:translateY(-1px)}
+    @media(max-width:800px){
+      .hero{padding:42px 16px 70px}
+      .wrap{padding:0 12px}
+      .layout{grid-template-columns:1fr}
+      .toc{position:relative;top:auto}
+      .content{padding:25px 20px}
+      .check-grid{grid-template-columns:1fr}
+    }
+    @media(prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      .btn{transition:none}
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">✝</div>
+      <div>
+        <strong>Saura Bible</strong>
+        <span>Developed by Saura Site</span>
+      </div>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p>
+      We respect your privacy. This policy explains how Saura Bible handles
+      information when you use the application and its related online resources.
+    </p>
+    <div class="updated">Effective / Last Updated: November 12, 2026</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="layout">
+
+    <aside class="toc" aria-label="Table of contents">
+      <h3>Contents</h3>
+      <a href="#introduction">1. Introduction</a>
+      <a href="#collection">2. Information We Collect</a>
+      <a href="#advertising">3. Advertising</a>
+      <a href="#use">4. How Information Is Used</a>
+      <a href="#content">5. Online Content</a>
+      <a href="#third-party">6. Third-Party Services</a>
+      <a href="#children">7. Children's Privacy</a>
+      <a href="#security">8. Data Security</a>
+      <a href="#retention">9. Retention & Deletion</a>
+      <a href="#links">10. External Links</a>
+      <a href="#changes">11. Changes</a>
+      <a href="#choices">12. Privacy Choices</a>
+      <a href="#contact">13. Contact Us</a>
+      <a href="#consent">14. Consent</a>
+    </aside>
+
+    <article class="content">
+
+      <section id="introduction">
+        <h2>1. Introduction</h2>
+        <p>
+          Welcome to <strong>Saura Bible</strong>, a Bible and Christian resource
+          application developed by <strong>Saura Site</strong>.
+        </p>
+        <p>
+          Saura Bible provides Bible content in the Soura/Saura language together
+          with Christian and devotional resources such as Sunday programme
+          references, songs, videos, news resources, dictionary content and
+          other faith-related materials.
+        </p>
+        <p>
+          This Privacy Policy explains how information is handled when you use
+          the Saura Bible mobile application.
+        </p>
+      </section>
+
+      <section id="collection">
+        <h2>2. Information We Collect</h2>
+        <h3>2.1 Personal Information</h3>
+        <p>
+          Saura Bible does not require users to create an account to use the
+          core application and does not intentionally collect personal
+          information such as:
+        </p>
+        <div class="check-grid">
+          <div class="check"><b>✓</b> Name</div>
+          <div class="check"><b>✓</b> Email address</div>
+          <div class="check"><b>✓</b> Phone number</div>
+          <div class="check"><b>✓</b> Home address</div>
+          <div class="check"><b>✓</b> Passwords</div>
+          <div class="check"><b>✓</b> Contacts</div>
+          <div class="check"><b>✓</b> Photos</div>
+          <div class="check"><b>✓</b> Financial information</div>
+        </div>
+        <p>
+          We do not sell, rent, or trade users' personal information.
+        </p>
+
+        <h3>2.2 Technical Information</h3>
+        <p>
+          The app may communicate with online services to provide certain
+          features and content. Third-party services used by the app may
+          process technical information according to their own policies.
+        </p>
+
+        <div class="notice">
+          <strong>Google Play Data Safety:</strong> The current Google Play
+          listing for Saura Bible states that no data is shared with third
+          parties and no data is collected by the developer. These declarations
+          should be kept consistent with the actual SDKs and services included
+          in the released app.
+        </div>
+      </section>
+
+      <section id="advertising">
+        <h2>3. Advertising</h2>
+        <p>
+          The current Google Play listing indicates that Saura Bible
+          <strong>contains ads</strong>.
+        </p>
+        <p>
+          Advertising providers may use technologies such as advertising
+          identifiers or similar technical information to deliver, measure,
+          personalize, or improve advertisements, depending on the provider,
+          the user's region, device settings, and applicable requirements.
+        </p>
+        <p>
+          Saura Site does not sell users' personal information. Third-party
+          advertising providers are responsible for their own processing
+          practices and privacy policies.
+        </p>
+        <div class="notice">
+          If the advertising SDK or any other third-party SDK in a future
+          version collects or shares data, the Google Play Data Safety
+          declaration and this Privacy Policy should be updated accordingly.
+        </div>
+      </section>
+
+      <section id="use">
+        <h2>4. How Information Is Used</h2>
+        <p>We do not intentionally use personal information to:</p>
+        <ul>
+          <li>Sell or rent personal information.</li>
+          <li>Create personal user profiles for marketing.</li>
+          <li>Send unsolicited promotional messages.</li>
+          <li>Maintain a personal user-account database.</li>
+        </ul>
+        <p>
+          Where third-party services process technical information, they may
+          use it for purposes such as providing advertisements, maintaining
+          functionality, security, analytics, fraud prevention, or preventing
+          abuse, subject to their own policies.
+        </p>
+      </section>
+
+      <section id="content">
+        <h2>5. Bible Content and Online Resources</h2>
+        <p>
+          Some Saura Bible features or resources may require an internet
+          connection. When you access online content, your device may
+          communicate with the relevant online service.
+        </p>
+        <p>
+          External websites, videos, online resources, news services, and
+          other third-party content are controlled by their respective
+          providers and may have separate privacy policies.
+        </p>
+      </section>
+
+      <section id="third-party">
+        <h2>6. Third-Party Services</h2>
+        <p>
+          The app may use or provide access to third-party services, websites,
+          advertisements, videos, or online content, including services
+          associated with Google Play and advertising providers.
+        </p>
+        <p>
+          These third parties may collect or process information under their
+          own privacy policies. Saura Site does not control the privacy
+          practices of independent third-party providers.
+        </p>
+      </section>
+
+      <section id="children">
+        <h2>7. Children's Privacy</h2>
+        <p>
+          Saura Bible contains Bible, Christian, educational, devotional, and
+          language-related material and is intended for a general audience.
+        </p>
+        <p>
+          We do not knowingly request or collect personal information from
+          children through the application. If a parent or guardian believes
+          that a child has provided personal information to us, please contact
+          us so that we can investigate the matter.
+        </p>
+      </section>
+
+      <section id="security">
+        <h2>8. Data Security</h2>
+        <p>
+          We take reasonable measures to protect information handled by the
+          application and to prevent unauthorized access, alteration,
+          disclosure, or misuse.
+        </p>
+        <p>
+          Because Saura Bible does not maintain a user account database or
+          intentionally collect personal information for our own user database,
+          there is generally no personal user database maintained by us through
+          the app.
+        </p>
+        <p>
+          No internet transmission or electronic storage system can be
+          guaranteed to be completely secure.
+        </p>
+      </section>
+
+      <section id="retention">
+        <h2>9. Data Retention and Deletion</h2>
+        <p>
+          Saura Bible does not intentionally maintain a personal user-account
+          database. Therefore, there is generally no personal account data
+          stored by us that requires an account-deletion request.
+        </p>
+        <p>
+          If you believe Saura Site may have received personal information from
+          you and you would like it reviewed or deleted, contact us using the
+          information below.
+        </p>
+      </section>
+
+      <section id="links">
+        <h2>10. External Links</h2>
+        <p>
+          Saura Bible may contain links to external websites, videos, services,
+          or other online resources. We are not responsible for the privacy,
+          security, content, or policies of external services.
+        </p>
+        <p>
+          When you leave Saura Bible and access an external service, that
+          service's own privacy policy will apply.
+        </p>
+      </section>
+
+      <section id="changes">
+        <h2>11. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy when the application receives new
+          features, our data practices change, third-party services change,
+          Google Play requirements change, or applicable laws and regulations
+          are updated.
+        </p>
+        <p>
+          When changes are made, we will update the <strong>Last Updated</strong>
+          date at the top of this page.
+        </p>
+      </section>
+
+      <section id="choices">
+        <h2>12. Privacy Choices</h2>
+        <p>
+          Depending on your Android device and the services used by the app,
+          you may be able to manage privacy and advertising controls through
+          your device settings.
+        </p>
+        <ul>
+          <li>Manage advertising preferences.</li>
+          <li>Reset or limit advertising identifiers.</li>
+          <li>Control application permissions.</li>
+          <li>Restrict internet access where supported by your device.</li>
+          <li>Uninstall the application at any time.</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>13. Contact Us</h2>
+        <p>
+          If you have questions, concerns, suggestions, or requests regarding
+          this Privacy Policy or Saura Bible, please contact us.
+        </p>
+        <div class="contact-card">
+          <h2>Saura Site</h2>
+          <p><strong>App:</strong> Saura Bible</p>
+          <p><strong>Developer:</strong> Raisana Gamango</p>
+          <p><strong>Email:</strong>
+            <a href="mailto:saurasite2@gmail.com">saurasite2@gmail.com</a>
+          </p>
+          <p><strong>Website:</strong>
+            <a href="https://www.saurasite.com/" target="_blank" rel="noopener">www.saurasite.com</a>
+          </p>
+          <p><strong>Phone:</strong> +91 76550 82507</p>
+          <p><strong>Address:</strong> Tarajasing, P.O. Sindhiba, P.S. Serango,
+            Via Gumma, District Gajapati, Odisha 761207, India</p>
+
+          <div class="buttons">
+            <a class="btn primary" href="mailto:saurasite2@gmail.com?subject=Saura%20Bible%20Privacy%20Inquiry">
+              Contact Privacy Support
+            </a>
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.saurabible.raison"
+               target="_blank" rel="noopener">
+              View on Google Play
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="consent">
+        <h2>14. Consent</h2>
+        <p>
+          By using Saura Bible, you acknowledge that you have read and
+          understood this Privacy Policy.
+        </p>
+        <p>
+          If you do not agree with this Privacy Policy, please discontinue use
+          of the application.
+        </p>
+      </section>
+
+    </article>
+  </div>
+</main>
+
+<footer class="footer">
+  © 2026 Saura Site. All rights reserved. · Saura Bible Privacy Policy
+</footer>
+
+</body>
+</html>
